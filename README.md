@@ -1,8 +1,8 @@
-# 🏠 Daniel's Award-Winning Home Office Portfolio 💼
+# 🏠 Alex's Creative Home Office Portfolio 💼
 
-**[Live site](https://daniels-architects.com/)**
+**[Live site](https://alexs-creative-studio.com/)**
 
-This repo contains code of Daniel's [Award-Winning](https://www.cssdesignawards.com/sites/daniels-architects/47206/) Home Office Portfolio. You can learn how to create a porfolio like this [here](https://youtu.be/aNJN8h_QsPA)!!! Get the Blender files from my [Google Drive](https://drive.google.com/file/d/1i8vPLDbOWoC_U8DXnRTY_-FqcOF3w0SO/view?usp=sharing).
+This repo contains code of Alex's [Award-Winning](https://www.cssdesignawards.com/sites/alexs-creative-studio/47206/) Home Office Portfolio. You can learn how to create a portfolio like this [here](https://youtu.be/aNJN8h_QsPA)!!! Get the Blender files from my [Google Drive](https://drive.google.com/file/d/1i8vPLDbOWoC_U8DXnRTY_-FqcOF3w0SO/view?usp=sharing).
 
 ![Page screenshot](public/media/og-image.webp?raw=true "Page screenshot")
 
@@ -32,31 +32,33 @@ This repo contains code of Daniel's [Award-Winning](https://www.cssdesignawards.
 - [Mfb64's vogue magazines](https://sketchfab.com/3d-models/vogue-magazines-bf47eea601784059aa52f2929a0c9ada)
 - [Igrium's water bottle](https://sketchfab.com/3d-models/water-bottle-885543a7679c4026abbd6499185caf08)
 
-# Daniel's Home Office Portfolio
+# Alex's Creative Home Office Portfolio
 
-This project is a portfolio website showcasing Daniel's home office setup, skills, and projects. It is built using modern web technologies and is designed to be visually appealing and responsive.
+This project is a portfolio website showcasing Alex's home office setup, creative skills, and innovative projects. It is built using modern web technologies and is designed to be visually stunning, interactive, and fully responsive across all devices.
 
-## Features
+## ✨ Features
 
-- Interactive 3D elements using `three.js` and `react-three-fiber`.
-- State management with `zustand`.
-- Smooth animations with `gsap`.
-- Modular and reusable components.
+- **Interactive 3D Environment**: Immersive 3D elements using `three.js` and `react-three-fiber`
+- **Smart State Management**: Efficient state handling with `zustand`
+- **Smooth Animations**: Professional animations powered by `gsap`
+- **Modular Architecture**: Clean, reusable, and maintainable component structure
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Performance Optimized**: Fast loading times and smooth interactions
 
-## Prerequisites
+## 🚀 Prerequisites
 
 Ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-## Installation
+## 📦 Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/daniels-home-office-portfolio.git
-   cd daniels-home-office-portfolio-main
+   git clone https://github.com/your-username/alexs-creative-home-office-portfolio.git
+   cd alexs-creative-home-office-portfolio
    ```
 
 2. Install dependencies:
@@ -71,11 +73,11 @@ Ensure you have the following installed:
    yarn install
    ```
 
-## Usage
+## 🛠️ Usage
 
 ### Development Server
 
-To start the development server:
+To start the development server with hot reload:
 
 ```bash
 npm run dev
@@ -91,7 +93,7 @@ The application will be available at `http://localhost:3000`.
 
 ### Build for Production
 
-To build the project for production:
+To create an optimized production build:
 
 ```bash
 npm run build
@@ -103,7 +105,7 @@ or
 yarn build
 ```
 
-The output will be in the `dist` folder.
+The output will be generated in the `dist` folder.
 
 ### Preview Production Build
 
@@ -119,40 +121,77 @@ or
 yarn preview
 ```
 
-## Folder Structure
+## 📁 Project Structure
 
 ```
-daniels-home-office-portfolio-main
+alexs-creative-home-office-portfolio
 ├── src/                # Source code
 │   ├── components/     # React components
-│   ├── assets/         # Static assets (images, fonts, etc.)
-│   ├── styles/         # CSS or styling files
-│   ├── state/          # Zustand store
+│   │   ├── UI/         # User interface components
+│   │   ├── 3D/         # Three.js components
+│   │   └── Layout/     # Layout components
+│   ├── assets/         # Static assets (images, fonts, models)
+│   ├── styles/         # CSS and styling files
+│   ├── hooks/          # Custom React hooks
+│   ├── utils/          # Utility functions
+│   ├── state/          # Zustand store configuration
 │   └── App.tsx         # Main application entry point
 ├── public/             # Public static files
 ├── package.json        # Project metadata and dependencies
 ├── package-lock.json   # Dependency lock file
 ├── README.md           # Project documentation
-└── tsconfig.json       # TypeScript configuration
+├── tsconfig.json       # TypeScript configuration
+└── vite.config.ts      # Vite configuration
 ```
 
-## Dependencies
+## 🔧 Key Dependencies
 
-Key dependencies used in this project:
+This project leverages cutting-edge web technologies:
 
-- `react` and `react-dom`: For building the user interface.
-- `three`: For 3D rendering.
-- `@react-three/fiber`: React renderer for `three.js`.
-- `zustand`: For state management.
-- `gsap`: For animations.
+- **React & React DOM**: Modern UI library for building interactive interfaces
+- **Three.js**: Powerful 3D graphics library for WebGL rendering
+- **@react-three/fiber**: React renderer for Three.js with declarative syntax
+- **@react-three/drei**: Useful helpers and abstractions for react-three-fiber
+- **Zustand**: Lightweight and flexible state management solution
+- **GSAP**: Professional-grade animation library
+- **TypeScript**: Enhanced JavaScript with static typing
+- **Vite**: Next-generation frontend tooling for faster development
 
-## License
+## 🎨 Customization
+
+Feel free to customize this portfolio to match your own style:
+
+1. **Colors & Themes**: Update the CSS variables in `src/styles/`
+2. **3D Models**: Replace models in `public/models/` with your own
+3. **Content**: Modify text content in components to reflect your experience
+4. **Animations**: Adjust GSAP animations to match your preferred style
+
+## 🚀 Deployment
+
+This project can be deployed to various platforms:
+
+- **Vercel**: `vercel --prod`
+- **Netlify**: Drag and drop the `dist` folder
+- **GitHub Pages**: Use GitHub Actions for automated deployment
+
+## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-- [Three.js](https://threejs.org/)
-- [React](https://reactjs.org/)
-- [Zustand](https://github.com/pmndrs/zustand)
-- [GSAP](https://greensock.com/gsap/)
+Special thanks to the amazing open-source community:
+
+- [Three.js](https://threejs.org/) - The foundation of our 3D world
+- [React](https://reactjs.org/) - For the fantastic component architecture
+- [Zustand](https://github.com/pmndrs/zustand) - Simple and scalable state management
+- [GSAP](https://greensock.com/gsap/) - Industry-standard animation platform
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) - Bringing React to 3D
+
+## 📧 Contact
+
+For questions, suggestions, or collaboration opportunities, feel free to reach out!
+
+---
+
+*Built with ❤️ and lots of ☕ by Alex*
