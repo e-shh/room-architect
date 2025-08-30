@@ -31,3 +31,128 @@ This repo contains code of Daniel's [Award-Winning](https://www.cssdesignawards.
 - [Naira's books and magazines](https://sketchfab.com/3d-models/books-and-magazines-d0b76eada5bd495abcdfb2b20e6f7ee6)
 - [Mfb64's vogue magazines](https://sketchfab.com/3d-models/vogue-magazines-bf47eea601784059aa52f2929a0c9ada)
 - [Igrium's water bottle](https://sketchfab.com/3d-models/water-bottle-885543a7679c4026abbd6499185caf08)
+
+# Daniel's Home Office Portfolio
+
+This project is a portfolio website showcasing Daniel's home office setup, skills, and projects. It is built using modern web technologies and is designed to be visually appealing and responsive.
+
+## Features
+
+- Interactive 3D elements using `three.js` and `react-three-fiber`.
+- State management with `zustand`.
+- Smooth animations with `gsap`.
+- Modular and reusable components.
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/daniels-home-office-portfolio.git
+   cd daniels-home-office-portfolio-main
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+   or
+
+   ```bash
+   yarn install
+   ```
+
+## Usage
+
+### Development Server
+
+To start the development server:
+
+```bash
+npm run dev
+```
+
+or
+
+```bash
+yarn dev
+```
+
+The application will be available at `http://localhost:3000`.
+
+### Build for Production
+
+To build the project for production:
+
+```bash
+npm run build
+```
+
+or
+
+```bash
+yarn build
+```
+
+The output will be in the `dist` folder.
+
+### Preview Production Build
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+or
+
+```bash
+yarn preview
+```
+
+## Folder Structure
+
+```
+daniels-home-office-portfolio-main
+├── src/                # Source code
+│   ├── components/     # React components
+│   ├── assets/         # Static assets (images, fonts, etc.)
+│   ├── styles/         # CSS or styling files
+│   ├── state/          # Zustand store
+│   └── App.tsx         # Main application entry point
+├── public/             # Public static files
+├── package.json        # Project metadata and dependencies
+├── package-lock.json   # Dependency lock file
+├── README.md           # Project documentation
+└── tsconfig.json       # TypeScript configuration
+```
+
+## Dependencies
+
+Key dependencies used in this project:
+
+- `react` and `react-dom`: For building the user interface.
+- `three`: For 3D rendering.
+- `@react-three/fiber`: React renderer for `three.js`.
+- `zustand`: For state management.
+- `gsap`: For animations.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- [Three.js](https://threejs.org/)
+- [React](https://reactjs.org/)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [GSAP](https://greensock.com/gsap/)
